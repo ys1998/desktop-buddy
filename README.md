@@ -1,7 +1,7 @@
 # Desktop-Buddy
 A desktop manager written in python to carry out several basic tasks
 
-Clone the repository on your machine and launch the application by calling
+Clone/download the repository on your machine and launch the application by calling
 python gui.py
 from the command line after moving to the directory containing the cloned repo.
 
