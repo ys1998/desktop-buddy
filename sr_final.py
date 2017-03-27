@@ -4,7 +4,7 @@ import d,Tkinter
 import parser
 
 # recognize speech using Microsoft Bing Voice Recognition
-BING_KEY = "248e4059386e47578fe9f1ad571a59e4" 
+BING_KEY = "" #Insert your Bing Speech API key here
 # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
 
 r=sr.Recognizer()
@@ -53,7 +53,6 @@ def startRecognizer():
 	
 	try:
 		txt.set("A moment of silence, please....configuring energy threshold to ")
-		print("1")
 		with m as source: r.adjust_for_ambient_noise(source)
 		txt.set(r.energy_threshold)
 		parent.update_idletasks()
