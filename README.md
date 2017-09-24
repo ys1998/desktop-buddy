@@ -16,4 +16,5 @@ You would need the following Python modules:
 [pafy](https://pypi.python.org/pypi/pafy)
 `pip install pafy`
 
-You also need to get your Bing Speech API Key from Microsoft Cognitive Services and insert it in the right place in the file sr_final.py
+You also need to get your Bing Speech API Key from Microsoft Cognitive Services and insert it in the right place in the file sr_final.
+
